@@ -150,8 +150,8 @@ wait = {
     "invite":False,
     "autoJoin":True,
     "protectinvite":True,
-    "qr":True
-    'autoAdd':True,
+    "qr":True,
+#    'autoAdd':True,
     "autoBlock":False,
     "Timeline":True,
     "autoLeave":False,
