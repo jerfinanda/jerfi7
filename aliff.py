@@ -24,7 +24,7 @@ import youtube_dl
 #ANTIJS_CANNIBAL BOT PROTECT
 
 
-cl = LineClient("email","sandi")
+cl = LineClient("zastronur@gmail.com","polytron11")
 cl.log("Auth Token : " + str(cl.authToken))
 channel1 = LineChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("Channel Access Token : " + str(channel1.channelAccessToken))
