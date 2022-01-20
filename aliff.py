@@ -30,25 +30,25 @@ channel1 = LineChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 
-ki = LineClient("email","sandi")
-ki.log("Auth Token : " + str(ki.authToken))
-channel1 = LineChannel(ki,ki.server.CHANNEL_ID['LINE_TIMELINE'])
-ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
+#ki = LineClient("zastronur@gmail.com","polytron11")
+#ki.log("Auth Token : " + str(ki.authToken))
+#channel1 = LineChannel(ki,ki.server.CHANNEL_ID['LINE_TIMELINE'])
+#ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 
-kk = LineClient("email","sandi")
-kk.log("Auth Token : " + str(kk.authToken))
-channel2 = LineChannel(kk)
-kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
+#kk = LineClient("email","sandi")
+#kk.log("Auth Token : " + str(kk.authToken))
+#channel2 = LineChannel(kk)
+#kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
 
-kc = LineClient("email","sandi")
-kc.log("Auth Token : " + str(kc.authToken))
-channel3 = LineChannel(kc)
-kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
+#kc = LineClient("email","sandi")
+#kc.log("Auth Token : " + str(kc.authToken))
+#channel3 = LineChannel(kc)
+#kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 
-sw = LineClient("email","sandi")
+sw = LineClient("sastroningrat28@gmail.com","polytron11")
 sw.log("Auth Token : " + str(sw.authToken))
 channel4 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
@@ -56,18 +56,18 @@ print("---LOGIN SUCCES BOSS-
 
 poll = LinePoll(cl)
 call = cl
-creator = ["ue84fa334a496ed189846c43d2a42ede3"]
-owner = ["ue84fa334a496ed189846c43d2a42ede3"]
-admin = ["ue84fa334a496ed189846c43d2a42ede3"]
-staff = ["ue84fa334a496ed189846c43d2a42ede3"]
+creator = ["u143f0214c32294f0f1afb26aa9d5b01d1"]
+owner = ["u143f0214c32294f0f1afb26aa9d5b01d1"]
+admin = ["u143f0214c32294f0f1afb26aa9d5b01d1"]
+staff = ["u143f0214c32294f0f1afb26aa9d5b01d1"]
 mid = cl.getProfile().mid
-Amid = ki.getProfile().mid
-Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
+#Amid = ki.getProfile().mid
+#Bmid = kk.getProfile().mid
+#Cmid = kc.getProfile().mid
 Zmid = sw.getProfile().mid
-KAC = [cl,ki,kk,kc]
-ABC = [ki,kk,kc]
-Bots = [mid,Amid,Bmid,Cmid,Zmid]
+KAC = [cl]
+#ABC = [ki,kk,kc]
+Bots = [mid,Zmid]
 Dpk = admin + staff
 
 protectqr = []
@@ -80,9 +80,9 @@ ghost = []
 
 welcome = []
 
-responsename1 = ki.getProfile().displayName
-responsename2 = kk.getProfile().displayName
-responsename3 = kc.getProfile().displayName
+#responsename1 = ki.getProfile().displayName
+#responsename2 = kk.getProfile().displayName
+#responsename3 = kc.getProfile().displayName
 
 settings = {
     "Picture":False,
